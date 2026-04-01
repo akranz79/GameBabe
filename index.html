@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mestre das Formas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Mestre das Formas</h1>
+        <p id="instruction">Encontre o <span id="target-shape">...</span></p>
+        <div id="shapes-area"></div>
+        <div class="status-bar">
+            <p>Pontos: <span id="score">0</span></p>
+            <p>Recorde: <span id="high-score">0</span></p>
+            <p>Tempo: <span id="timer">30</span>s</p>
+        </div>
+        <button onclick="startGame()">Reiniciar Jogo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
